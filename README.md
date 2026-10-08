@@ -129,6 +129,8 @@ SpinGPT is the notable exception — but it requires solver-generated training d
   - [Poker Bot Costs in 2026](https://pokerbotai.com/docs/how-much-do-poker-bots-cost/) — Pricing comparison across solvers, trainers, RTA, and AI bots.
   - [ROI and Realistic Expectations](https://pokerbotai.com/docs/poker-bot-roi-realistic-expectations/) — Real performance data: 150-500% ROI, winrate benchmarks.
   - [FAQ: Top 10 Questions](https://pokerbotai.com/docs/faq-top-10-questions-about-poker-bots/) — Safety, earnings, cost, experience, and getting started.
+ 
+- [PokerBot.com](https://www.pokerbot.com/) — Bot technology for private clubs and operators: liquidity bots and bot detection.
 
 ### Historical
 
@@ -154,6 +156,8 @@ A growing number of projects attempt to use general-purpose LLMs for poker. None
   | claude-3-5-sonnet | -19.95 |
   | gpt-4o-mini | -45.09 |
   | gemini-1.5-pro | -166.85 |
+
+- [AI Poker Bots vs Rule-Based Bots](https://poker-ai.org/ai-poker-bots-vs-rule-based-bots/) — Six commercial bots at one PPPoker table, 26,395 hands. AI bots won +29.2 bb/100, rule-based bots lost −24.3 (95% intervals). Hand histories included.
 
 ## Educational Resources
 
