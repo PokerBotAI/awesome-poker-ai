@@ -146,6 +146,8 @@ A growing number of projects attempt to use general-purpose LLMs for poker. None
 
 ## Benchmarks & Evaluation
 
+- [aipoker.bot](https://aipoker.bot/) — Free site where people play no-limit hold'em against LLMs (GPT, Claude, Gemini, Grok, DeepSeek, Qwen, GLM and open-weight models) plus Slumbot and classic rule-based bots. Every model move is logged with its one-line reason, and [public stats](https://aipoker.bot/stats) count mistakes per model from games against people: illegal actions, hands the model claimed but didn't have, folds of the best hand.
+
 - [poker-eval](https://github.com/superagent-ai/poker-eval) — TypeScript framework for evaluating AI agent performance in simulated NLHE cash games. Uses standard poker KPIs (BB/100, EV, VPIP). Supports Vercel AI SDK, OpenAI, Mastra, LlamaIndex, and Langchain. Includes a [leaderboard](https://github.com/superagent-ai/poker-eval) of LLM performance (2024).
 
   Current leaderboard (1000 hands vs 2x GPT-4o baseline):
