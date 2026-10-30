@@ -159,6 +159,8 @@ A growing number of projects attempt to use general-purpose LLMs for poker. None
   | gpt-4o-mini | -45.09 |
   | gemini-1.5-pro | -166.85 |
 
+- [pokbot BOT Arena](https://github.com/baobabtr33/pokbot) — Open bot-vs-bot No-Limit Hold'em arena: submit a bot in any language (JSON lines on stdin/stdout, 5 ms per decision) and it plays a knockout tournament every 30 minutes, 10 sets of 1,000 hands per table, ranked on a public [leaderboard](https://baobabtr33.github.io/pokbot/leaderboard/). Includes an MCP server so AI agents can enter, and a difficulty ladder of example bots.
+
 - [AI Poker Bots vs Rule-Based Bots](https://poker-ai.org/ai-poker-bots-vs-rule-based-bots/) — Six commercial bots at one PPPoker table, 26,395 hands. AI bots won +29.2 bb/100, rule-based bots lost −24.3 (95% intervals). Hand histories included.
 
 ## Educational Resources
