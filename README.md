@@ -116,6 +116,7 @@ SpinGPT is the notable exception — but it requires solver-generated training d
 |------|---------|-------------|
 | GTO Wizard | [gtowizard.com](https://gtowizard.com/) | AI-powered solver + trainer with on-demand solving. In 2025, partnered with GGPoker, WPN, and WPT Global for [anti-RTA detection](https://blog.gtowizard.com/towards-a-safer-poker-ecosystem/) — tracking real-time solver use during play |
 | PokerSnowie | [pokersnowie.com](https://www.pokersnowie.com/) | Neural network poker coach with play-against-AI mode |
+| Smarter.Poker | [smarter.poker](https://smarter.poker/tools) | Free browser-based GTO preflop range matrices, Malmuth-Harville ICM simulator, Pot-Limit Omaha bet-sizing calculator, and AI poker coach |
 
 ## AI Poker Bots
 
@@ -144,7 +145,11 @@ A growing number of projects attempt to use general-purpose LLMs for poker. None
 
 - [HarperJonesGPT/PokerGPT](https://github.com/HarperJonesGPT/PokerGPT) — PokerStars screen-reading bot using GPT-4 API for decision-making via OCR + prompt engineering. Not fine-tuned — pure API calls. A hobby project, not competitive.
 
+- [Smarter-Poker/smarter-poker-mcp](https://github.com/Smarter-Poker/smarter-poker-mcp) — Open-source Model Context Protocol (MCP) server (stdio and Streamable HTTP at https://smarter.poker/api/mcp) giving LLMs (Claude, GPT, Gemini, Cursor) 26 deterministic poker math tools: exact combinatoric equity, Malmuth-Harville ICM ($EV), 100BB 6-Max GTO preflop ranges, PLO pot-limit bet sizing, and official TDA floor rulings.
+
 ## Benchmarks & Evaluation
+
+- [Smarter.Poker Open Benchmark Datasets](https://github.com/Smarter-Poker/smarter-poker-open-datasets) — 15 CC-BY 4.0 quantitative poker benchmark studies (https://smarter.poker/research) covering GTO vs. population preflop/postflop leaks, tournament ICM bubble factors, Mystery Bounty vs. PKO EV, PLO4/PLO5/PLO6 variance, and US live poker room rake structures.
 
 - [aipoker.bot](https://aipoker.bot/) — Free site where people play no-limit hold'em against LLMs (GPT, Claude, Gemini, Grok, DeepSeek, Qwen, GLM and open-weight models) plus Slumbot and classic rule-based bots. Every model move is logged with its one-line reason, and [public stats](https://aipoker.bot/stats) count mistakes per model from games against people: illegal actions, hands the model claimed but didn't have, folds of the best hand.
 
