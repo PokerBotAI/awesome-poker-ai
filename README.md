@@ -109,6 +109,7 @@ SpinGPT is the notable exception — but it requires solver-generated training d
 | MonkerSolver | [monkerware.com](https://monkerware.com/solver.html) | Industry standard for PLO and multi-way spots |
 | Deepsolver | [deepsolver.com](https://deepsolver.com/) | Cloud-based solver, solves any spot on-demand |
 | HRC | [holdemresources.net](https://www.holdemresources.net/) | Tournament (ICM) preflop analysis |
+| PulseGTO | [pulsegto.com](https://pulsegto.com/) | Preflop-to-river solver for NLHE and PLO, with 3-way postflop and ICM in one engine |
 
 ## Training Platforms
 
